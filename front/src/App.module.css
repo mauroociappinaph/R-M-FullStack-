@@ -1,0 +1,72 @@
+
+body {
+   background-color: #f2f2f2;
+ }
+ 
+ .App {
+   margin: 0 auto;
+   max-width: 800px;
+   padding: 25px;
+ }
+ 
+ .Routes {
+   margin-top: 25px;
+ }
+ 
+ .Card {
+   margin-bottom: 25px;
+ }
+ 
+ .Form {
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   padding: 25px;
+ }
+ 
+ .Form__input {
+   width: 100%;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   margin-bottom: 10px;
+ }
+ 
+ .Form__button {
+   background-color: #6c63ff;
+   color: #fff;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+ 
+ .Form__button:hover {
+   background-color: #5248b0;
+ }
+ 
+
+.nav {
+   background-color: #44281d;
+   padding: 1rem;
+   display: flex;
+   justify-content: end;
+   margin-bottom: .5rem;
+
+}
+a {
+   color: #6c63ff;
+   text-decoration: none;
+ }
+ 
+ a:hover {
+   text-decoration: underline;
+ }
+ .Card__image {
+   transition: transform 0.2s ease-in-out;
+ }
+ 
+ .Card__image:hover {
+   transform: scale(1.05);
+ }
+ 

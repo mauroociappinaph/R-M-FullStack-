@@ -1,0 +1,22 @@
+.conteinerNav {
+    background-color: #6c63ff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    align-items: center;
+  }
+  
+  .conteinerNav h2 {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  
+  .conteinerNav a {
+    text-decoration: none;
+  }
+  
+  .conteinerNav a:hover {
+    text-decoration: underline;
+  }
+  
