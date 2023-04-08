@@ -15,7 +15,7 @@ function getCharById(res, id) {
       // Si la petición es exitosa, hacemos algo con los datos recibidos
       const {id, image, name, gender ,species } = response.data;
       res.writeHead(200, {"Content-Type": "application/json"});
-      res.end ({id, image, name, gender ,species})
+      res.end (JSON.stringify ({id, image, name, gender ,species}))
     })
     
     .catch((error) => {
