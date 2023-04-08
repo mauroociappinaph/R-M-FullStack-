@@ -21,9 +21,10 @@ function App() {
   }, [access]);
 
   const onSearch = (id) => {
-    const URL_BASE = `https://be-a-rym.up.railway.app/api`;
-    const KEY = "09d38d0a379a.47ee58661aa6af2a95d7";
-    if (characters.find((char) => char.id === id)) {
+    const URL_BASE = "https://localhost:3001/rickandmorty";
+   // const KEY = "09d38d0a379a.47ee58661aa6af2a95d7";
+    
+   if (characters.find((char) => char.id === id)) {
       return alert("Personaje repetido");
     }
 
