@@ -18,10 +18,11 @@ function getCharById(res, id) {
       res.end (JSON.stringify ({id, image, name, gender ,species}))
     })
     
-    .catch((error) => {
+    .catch(error => {
       // Si hay algún error, lo manejamos aquí
-      console.error(error);
-      res.status(500).send("Ha ocurrido un error al obtener el personaje");
+      res.writeHead(500, {"Content-Type": "application/json"});
+     res.end(error.message);
+      
     });
 }
 
